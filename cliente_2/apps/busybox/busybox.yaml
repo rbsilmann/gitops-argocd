@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: busybox
-        image: busybox:latest
+        image: ubuntu:latest
         resources:
           limits:
             memory: "128Mi"
