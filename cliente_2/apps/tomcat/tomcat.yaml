@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: tomcat:11
+        image: tomcat:10
         resources:
           limits:
             memory: "128Mi"
