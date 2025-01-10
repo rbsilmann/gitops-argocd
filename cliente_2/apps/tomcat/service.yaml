@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: svc-tomcat
 spec:
+  type: LoadBalancer
   selector:
     app: tomcat
   ports:
